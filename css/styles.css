@@ -136,6 +136,7 @@ body {
     opacity: .45;
     font-size: calc(var(--index) * 1);
     letter-spacing: calc(var(--index) / 37.5);
+    color: #fff;
 }
 
 .main-article-beam::after {
