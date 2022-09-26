@@ -4,25 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apartment</title>
+    <title>apartment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
     <script src="./js/jscript.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
       <div class="content">
-        <header class="header-container">
-<div class="layers">
-    <div class="layer-base"></div>
-    <div class="layer-midle"></div>
-    <div class="layer-front"></div>
-</div>
+        <header class="main-header">
+          <div class="layers">
+            <div class="layer__header">
+              <div class="layer__caption">Welcome to our site</div>
+              <div class="layer__title">KITTY</div>
+            </div>
+            <div
+              class="layer layers__base"
+              style="background-image: url(./img/bg.jpg)"
+            ></div>
+            <div
+              class="layer layers__middle"
+              style="background-image: url(./img/cat.png)"
+            ></div>
+            <div
+              class="layer layers__front"
+              style="background-image: url(./img/scarf.png)"
+            ></div>
+          </div>
         </header>
-        <main class="main-container">
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe omnis qui, provident excepturi cumque, praesentium obcaecati ipsa dolores accusamus, fugit alias hic quaerat vitae porro vel totam nihil aliquid maiores?</p>
-        </main>
-        <footer class="footer-container"></footer>
+        <article
+          class="main-article main-article-beam"
+          style="background-image: url(./img/room-1.jpg)"
+        >
+          <div class="main-article__content">
+            <h2 class="main-article__header">To be continue</h2>
+            <p class="main-article__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              quasi commodi tempora magnam cupiditate, repudiandae tempore nam
+              excepturi dolores ipsam ad nemo quisquam totam veniam minima
+              corrupti suscipit neque. Tenetur, deleniti voluptatem?
+            </p>
+          </div>
+        </article>
+        <article
+          class="main-article"
+          style="background-image: url(./img/footer.jpg)"
+        >
+          <div class="main-article__content">
+            <h2 class="main-article__header">To be continue</h2>
+            <p class="main-article__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              quasi commodi tempora magnam cupiditate, repudiandae tempore nam
+              excepturi dolores ipsam ad nemo quisquam totam veniam minima
+              corrupti suscipit neque. Tenetur, deleniti voluptatem?
+            </p>
+          </div>
+          <div class="copy">© Vitaliy Gerassimov</div>
+        </article>
+      </div>
     </div>
   </body>
 </html>
